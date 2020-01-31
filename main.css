@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.hero {
+  background-image: url(https://d26zli431xw93h.cloudfront.net/hero-banners/_1500x600_crop_center-center_none/Homepage-Banner-Image-2.jpg?mtime=20190214104734);
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroWrapper {
+  position: absolute;
+  text-align: center;
+  top: 26%;
+  width: 80%;
+}
+.heroText {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  padding: 1rem;
+  font-weight: 00;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+}
+.heroButton {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+  background: transparent;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d18316;
+  border-radius: 2px;
+  margin: 0.75rem;
+  padding: 16px 32px;
+  min-width: 12.5rem;
+}
+.heroLinks {
+  margin: 2.75rem;
+}
