@@ -44,5 +44,166 @@
   min-width: 12.5rem;
 }
 .heroLinks {
-  margin: 2.75rem;
+  margin: 2rem;
+}
+.companiesBar {
+  background: #eaebec;
+  /* padding: 0.5rem 0; */
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.companiesWrapper {
+  width: 80vw;
+  height: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.companiesLogo {
+  position: relative;
+  height: 100px;
+  width: auto;
+  /* margin: 20px; */
+}
+#anthem {
+  height: 60px;
+  opacity: 75%;
+}
+#lids {
+  opacity: 75%;
+}
+#pacers {
+  opacity: 70%;
+}
+.greyIcon {
+  filter: grayscale(100%);
+  max-height: 100%;
+  max-width: 100%;
+  padding: 1rem;
+}
+.callout {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.calloutTextWrapper {
+  padding: 5rem;
+  width: 75vw;
+}
+.calloutText {
+  font-family: "Libre Baskerville", serif;
+  font-size: 40px;
+  color: #333c46;
+}
+.featuredPrimary {
+  /* padding: 1.5rem 1.25rem 2rem; */
+  position: relative;
+  background-image: url(https://d26zli431xw93h.cloudfront.net/hero-banners/_2000x600_crop_center-center_none/IUH_Hero_edit022118.jpg?mtime=20180629154521);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: 50%;
+  z-index: 0;
+  height: 90vh;
+}
+.darken {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 78, 78, 0.5);
+}
+
+.featuredWrapper {
+  padding: 13rem 0;
+  /* display: flex; */
+  align-content: center;
+  justify-content: left;
+  width: 40vw;
+  margin-left: 15%;
+}
+.featuredHeading {
+  margin: 0.5rem 0 0.75rem;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.875rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+.featuredTitle {
+  margin: 0.5rem 0 0 0;
+  color: white;
+  font-size: 2rem;
+  line-height: 1.875rem;
+  font-family: "Libre Baskerville", serif;
+}
+.featuredText {
+  color: white;
+  padding: 2rem 0;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 1px;
+  /* margin-bottom: 1.5rem; */
+  width: 90%;
+  justify-content: left;
+}
+.featuredViewProject {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 1px;
+  justify-content: left;
+}
+.break {
+  position: relative;
+  width: auto;
+  background: #eaebec;
+  text-align: center;
+  padding: 3rem;
+}
+.seeMore {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  color: #36475a;
+  text-transform: uppercase;
+}
+.servicesWrapper {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.servicesHeading {
+  color: #36475a;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+  letter-spacing: 3px;
+  width: 60vw;
+  text-align: center;
+}
+.serviceIntro {
+  text-transform: uppercase;
+}
+.serviceh3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.875rem;
+  margin: 0.5rem 0 1rem;
+}
+.serviceP {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 300;
+  font-size: 1.85rem;
+  line-height: 1.75rem;
+  margin: 0;
+  letter-spacing: normal;
+  text-transform: none;
 }
