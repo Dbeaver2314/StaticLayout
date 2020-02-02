@@ -2,7 +2,9 @@
   box-sizing: border-box;
   margin: 0px;
 }
-
+a:link {
+  text-decoration: none;
+}
 .hero {
   background-image: url(https://d26zli431xw93h.cloudfront.net/hero-banners/_1500x600_crop_center-center_none/Homepage-Banner-Image-2.jpg?mtime=20190214104734);
   background-size: cover;
@@ -42,6 +44,14 @@
   margin: 0.75rem;
   padding: 16px 32px;
   min-width: 12.5rem;
+  transition: background 0.3s, color 0.3s;
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+.heroButton:hover {
+  background-color: #d18316;
 }
 .heroLinks {
   margin: 2rem;
@@ -161,16 +171,25 @@
 .break {
   position: relative;
   width: auto;
+  color: #36475a;
   background: #eaebec;
   text-align: center;
   padding: 3rem;
+  transition: background 0.3s, color 0.3s;
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+.break:hover {
+  background-color: #d18316;
+  color: #fff;
 }
 .seeMore {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 1.25rem;
-  color: #36475a;
   text-transform: uppercase;
 }
 .servicesWrapper {
@@ -186,6 +205,7 @@
   letter-spacing: 3px;
   width: 60vw;
   text-align: center;
+  padding-bottom: 3rem;
 }
 .serviceIntro {
   text-transform: uppercase;
@@ -206,4 +226,139 @@
   margin: 0;
   letter-spacing: normal;
   text-transform: none;
+}
+.column1 {
+  padding: 3rem 0 0 0;
+  display: flex;
+  height: auto;
+
+  align-content: center;
+  justify-content: center;
+}
+.cl1 {
+  position: relative;
+  padding: 1rem;
+  height: auto;
+  margin: 2rem;
+}
+.icon {
+  position: absolute;
+  margin-top: -10px;
+  align-self: center;
+  background-image: url(https://webstockreview.net/images/morning-clipart-video-5.png);
+  background-size: contain;
+  background-color: #fff;
+  box-shadow: 0 0 50px #07c;
+  z-index: 1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.icon2 {
+  position: absolute;
+  margin-top: -10px;
+  align-self: center;
+  background-image: url(https://www.pinclipart.com/picdir/big/404-4040968_speech-bubble-png-images-transparent-free-download-thought.png);
+  background-color: #fff;
+  background-size: contain;
+  box-shadow: 0 0 50px #d18316;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  z-index: 1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.icon3 {
+  position: absolute;
+  margin-top: -10px;
+  align-self: center;
+  background-image: url(https://lh3.googleusercontent.com/proxy/vu1le6VS1EE4aph3I07ZHpIIJaj9rUxOB3DZxcAT2NH7xTb3pZOCo6ukJpsXNYGXo8yncSJb9nuY0LEc7GuLAylMn4Ww8Ahf);
+  background-color: #fff;
+  box-shadow: 0 0 50px #07c;
+  background-size: contain;
+  z-index: 1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.img1 {
+  box-shadow: 0 0 25px 4px rgba(1, 1, 1, 0.15);
+  position: relative;
+  height: 80%;
+  width: auto;
+}
+.cr1 {
+  position: relative;
+  justify-content: left;
+  width: 25%;
+  padding-top: 4rem;
+  vertical-align: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: 0 2rem 0 2rem;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.column2 {
+  padding: 3rem 0 0 0;
+  display: flex;
+  height: auto;
+  flex-direction: row-reverse;
+  align-content: center;
+  justify-content: center;
+}
+.buttonGreen {
+  background: #a8ae38;
+  border: 3px solid #a8ae38;
+  color: #fff;
+  transition: background 0.3s, color 0.3s;
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  margin: 0.75rem;
+  padding: 16px 32px;
+  min-width: 12.5rem;
+  cursor: pointer;
+}
+.buttonGreen:hover {
+  color: #a8ae38;
+  background-color: #fff;
+}
+.buttonBlue {
+  background: #7396aa;
+  border: 3px solid #7396aa;
+  color: #fff;
+  transition: background 0.3s, color 0.3s;
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  margin: 0.75rem;
+  padding: 16px 32px;
+  min-width: 12.5rem;
+  cursor: pointer;
+}
+.buttonBlue:hover {
+  color: #7396aa;
+  background-color: #fff;
 }
